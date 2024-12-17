@@ -110,7 +110,7 @@ module.exports = {
                         userId: member.id
                     }).catch((err) => null)
                     
-                    await member.roles.remove(extraOwnerRole, `**FlaMe-Advance's Dangermode ENABLED**`)
+                    await member.roles.remove(extraOwnerRole, `**Harm-Advance's Dangermode ENABLED**`)
                 } catch (err) {
                     console.error(err)
                 }

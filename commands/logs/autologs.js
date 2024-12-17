@@ -78,7 +78,7 @@ module.exports = {
                         .setTitle('Logging System is Already Set Up')
                         .setDescription('Your server already has a configured logging system.')
                         .addField('How to Reset Logging?', 'You can manage logging settings using the appropriate commands.')
-                        .setFooter(`Note : If you wannna setup logging again use ${message.guild.prefix}logsreset & delete all existinglog channels of FlaMe-Advance`, client.user.displayAvatarURL())
+                        .setFooter(`Note : If you wannna setup logging again use ${message.guild.prefix}logsreset & delete all existinglog channels of Harm-Advance`, client.user.displayAvatarURL())
                 ]
             });
             
@@ -87,10 +87,10 @@ module.exports = {
 
 
         try {
-            let category = message.guild.channels.cache.find(c => c.type === 'GUILD_CATEGORY' && c.name === 'FlaMe-Advance-LOGS');
+            let category = message.guild.channels.cache.find(c => c.type === 'GUILD_CATEGORY' && c.name === 'Harm-Advance-LOGS');
 
             if (!category) {
-                category = await message.guild.channels.create('FlaMe-Advance-LOGS', {
+                category = await message.guild.channels.create('Harm-Advance-LOGS', {
                     type: 'GUILD_CATEGORY',
                     permissionOverwrites: [
                         {
@@ -119,7 +119,7 @@ module.exports = {
                                     .setTitle('Logging System is Already Set Up')
                                     .setDescription('Your server already has a configured logging system.')
                                     .addField('How to Reset Logging?', 'You can manage logging settings using the appropriate commands.')
-                                    .setFooter(`Note : If you wannna setup logging again use ${message.guild.prefix}logsreset & delete all existinglog channels of FlaMe-Advance`, client.user.displayAvatarURL())
+                                    .setFooter(`Note : If you wannna setup logging again use ${message.guild.prefix}logsreset & delete all existinglog channels of Harm-Advance`, client.user.displayAvatarURL())
                             ]
                         });
                     }
@@ -159,7 +159,7 @@ let memberlogs = await message.guild.channels.cache.find(channel => channel.name
             new MessageEmbed()
                 .setColor(client.color)
                 .setTitle('Logging Channels Setup Complete')
-                .setDescription('All necessary logging channels have been successfully created under the "FlaMe-Advance LOGS" category.')
+                .setDescription('All necessary logging channels have been successfully created under the "Harm-Advance LOGS" category.')
                 .addField('Channels Created', '- **modlogs:** Logs moderation-related events.\n- **memberlogs:** Logs member-related events.\n- **msglogs:** Logs message-related events.\n- **channellogs:** Logs channel-related events.\n- **voicelogs:** Logs voice-related events\n- **rolelogs:** Logs role-related events.')
                 .addField('Additional Configuration', 'You can further customize logging settings and manage permissions as needed.')
         ]

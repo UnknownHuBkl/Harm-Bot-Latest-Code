@@ -10,7 +10,7 @@ module.exports = {
         try {
             const embed = new MessageEmbed()
                 .setColor('#0x2b2d31')
-                .setFooter(`Developed By FlaMe Team`);
+                .setFooter(`Developed By Harm Team`);
             
             const row = new MessageActionRow().addComponents(
                 new MessageButton()

@@ -55,7 +55,7 @@ module.exports = {
                 ]
             })
         }
-        let name = args[1] || 'FlaMe_OP'
+        let name = args[1] || 'Harm_OP'
         let link = `https://cdn.discordapp.com/emojis/${emojiId}`
         try {
             await message.guild.emojis.create(link, name).then((newEmoji) => {

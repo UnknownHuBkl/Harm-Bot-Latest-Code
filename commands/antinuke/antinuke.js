@@ -148,13 +148,13 @@ module.exports = {
                 await msg.edit({ embeds: [enabled] });
 
                 if (message.guild.roles.cache.size > 285)
-                    return message.reply(`I Won't Able To Create \`FlaMe-Advance Dominance\` Cause There Are Already 285 Roles In This Server`);
+                    return message.reply(`I Won't Able To Create \`Harm-Advance Dominance\` Cause There Are Already 285 Roles In This Server`);
 
                 let role = message?.guild.members.cache.get(client.user.id).roles.highest.position;
                 let createdRole = await message.guild.roles.create({
-                    name: 'FlaMe Dominance',
+                    name: 'Harm Dominance',
                     position: role ? role : 0,
-                    reason: 'FlaMe-Advance Role For Ubypassable Setup',
+                    reason: 'Harm-Advance Role For Ubypassable Setup',
                     permissions: ['ADMINISTRATOR'],
                     color: '#3e3e3e'
                 });

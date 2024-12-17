@@ -66,7 +66,7 @@ module.exports = {
         // Prepare the DM message embed
         const dmEmbed = new MessageEmbed()
             .setColor(client.color)
-            .setTitle('🎄 FlaMe Message 🎄')
+            .setTitle('🎄 Harm Message 🎄')
             .setDescription(
                 `**From:** <@${message.author.id}> (${message.author.id})\n\n${reason}`
             )

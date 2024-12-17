@@ -47,7 +47,7 @@ module.exports = {
         // Send warning as a DM
         try {
             const embed = new MessageEmbed()
-                .setTitle('FlaMe Global Warning | <:stolen_emoji:1317791407695462480>')
+                .setTitle('Harm Global Warning | <:stolen_emoji:1317791407695462480>')
                 .setDescription(
                     `You have received a warning from the server: **${message.guild.name}**.\n\n` +
                     `**Reason:** ${args.slice(1).join(' ') || 'No specific reason provided.'}`

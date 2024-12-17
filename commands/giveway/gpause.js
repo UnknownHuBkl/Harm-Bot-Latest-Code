@@ -64,7 +64,7 @@ module.exports = {
         await giveawayMessage.edit({
             embeds: [
                 new MessageEmbed()
-                    .setTitle('🎉 FlaMe Giveaway Paused!🎉')
+                    .setTitle('🎉 Harm Giveaway Paused!🎉')
                     .setDescription(`**<:dot:1314799225120227388> Prize:** ${giveaway.prize}
 **<:dot:1314799225120227388> Duration:** ${giveaway.duration}
 **<:dot:1314799225120227388> Hosted By:** ${giveaway.host}

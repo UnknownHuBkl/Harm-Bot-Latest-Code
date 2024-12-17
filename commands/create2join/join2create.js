@@ -14,7 +14,7 @@ module.exports = {
 
     name: 'j2csetup',
 
-    description: 'Sets up the Flame Temp Voice category and channels.',
+    description: 'Sets up the Harm Temp Voice category and channels.',
 
     category: 'mod',
 
@@ -46,7 +46,7 @@ module.exports = {
 
         // Create the category
 
-        let category = await message.guild.channels.create('Flame Temp Voice', {
+        let category = await message.guild.channels.create('Harm Temp Voice', {
 
             type: 'GUILD_CATEGORY',
 
@@ -54,7 +54,7 @@ module.exports = {
 
         // Create the text channel
 
-        const controlChannel = await message.guild.channels.create('Flame-control', {
+        const controlChannel = await message.guild.channels.create('Harm-control', {
 
             type: 'GUILD_TEXT',
 
@@ -96,7 +96,7 @@ module.exports = {
 
         const embed = new MessageEmbed()
 
-            .setTitle('Flame Voice Controller')
+            .setTitle('Harm Voice Controller')
 
             .setColor('BLUE')
 

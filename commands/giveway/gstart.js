@@ -56,7 +56,7 @@ module.exports = {
 
         // Create giveaway embed
         const embed = new MessageEmbed()
-            .setTitle('🎉 FlaMe Giveaway!🎉')
+            .setTitle('🎉 Harm Giveaway!🎉')
             .setDescription(`**<:dot:1314799225120227388> Prize:** ${prize}
 **<:dot:1314799225120227388> Duration:** ${time}
 **<:dot:1314799225120227388> Hosted By:** ${message.author}`)
@@ -94,7 +94,7 @@ module.exports = {
             message.channel.send({
                 embeds: [
                     new MessageEmbed()
-                        .setTitle('🎉 FlaMe Giveaway Ended!🎉')
+                        .setTitle('🎉 Harm Giveaway Ended!🎉')
                         .setDescription(`**<:dot:1314799225120227388> Prize:** ${prize}
 **<:dot:1314799225120227388> Winners:** ${winners}
 **<:dot:1314799225120227388> Hosted By:** ${message.author}`)

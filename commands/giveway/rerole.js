@@ -74,7 +74,7 @@ module.exports = {
         message.channel.send({
             embeds: [
                 new MessageEmbed()
-                    .setTitle('🎉 FlaMe Giveaway Rerolled!🎉')
+                    .setTitle('🎉 Harm Giveaway Rerolled!🎉')
                     .setDescription(`**<:dot:1314799225120227388> Prize:** ${giveaway.prize}
 **<:dot:1314799225120227388> New Winners:** ${winners}
 **<:dot:1314799225120227388> Hosted By:** ${message.author}`)
