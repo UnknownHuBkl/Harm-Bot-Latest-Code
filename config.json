@@ -1,0 +1,9 @@
+{
+    "TOKEN": "",
+    "MONGO_DB": "mongodb+srv://Kronix1:arjun@cluster0.ob9wwsc.mongodb.net/?retryWrites=true&w=majority",
+    "cooldown": false,
+    "owner": ["1300534329402982472","1300534329402982472"],
+    "admin": ["1300534329402982472","1300534329402982472"],
+    "np": ["1300534329402982472","1300534329402982472"],
+    "invite": "https://discord.com/oauth2/authorize?client_id=1308352313156440104&permissions=8&integration_type=0&scope=bot"
+}
