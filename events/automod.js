@@ -43,7 +43,7 @@ module.exports = async (client) => {
                             try {
                                 await message.member.timeout(
                                     30 * 60 * 1000,
-                                    'FlaMe-Advance | ANTILINK | TIMEOUT'
+                                    'Harm-Advance | ANTILINK | TIMEOUT'
                                 )
                                 let scucess = await message.channel.send({
                                     embeds: [
@@ -70,7 +70,7 @@ module.exports = async (client) => {
                             try {
                                 await message.guild.members.kick(
                                     message.member.id,
-                                    'FlaMe-Advance | ANTILINK | KICK'
+                                    'Harm-Advance | ANTILINK | KICK'
                                 )
                                 let scucess = await message.channel.send({
                                     embeds: [
@@ -95,7 +95,7 @@ module.exports = async (client) => {
                         await message.delete()
                         if (message.member.bannable) {
                             try {
-                                let reason = 'FlaMe-Advance | ANTILINK | BAN'
+                                let reason = 'Harm-Advance | ANTILINK | BAN'
                                 await message.guild.members
                                     .ban(message.member.id, { reason: reason })
                                     .catch((e) => console.log(e))
@@ -193,7 +193,7 @@ module.exports = async (client) => {
                                 try {
                                     await message.member.timeout(
                                         30 * 60 * 1000,
-                                        'FlaMe-Advance | ANTISPAM | TIMEOUT'
+                                        'Harm-Advance | ANTISPAM | TIMEOUT'
                                     )
                                     let success = await message.channel.send({
                                         embeds: [
@@ -219,7 +219,7 @@ module.exports = async (client) => {
                             if (message.member.kickable) {
                                 try {
                                     await message.member.kick(
-                                        'FlaMe-Advance | ANTISPAM | KICK'
+                                        'Harm-Advance | ANTISPAM | KICK'
                                     )
                                     let success = await message.channel.send({
                                         embeds: [
@@ -244,7 +244,7 @@ module.exports = async (client) => {
                             if (message.member.banable) {
                                 try {
                                     await message.member.ban(
-                                        'FlaMe-Advance | ANTISPAM | BAN'
+                                        'Harm-Advance | ANTISPAM | BAN'
                                     )
                                     let success = await message.channel.send({
                                         embeds: [

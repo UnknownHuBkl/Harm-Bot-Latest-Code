@@ -5,13 +5,13 @@ module.exports = (client) => {
         if (!interaction.isButton()) return;
 
         if (interaction.customId === 'create_ticket') {
-            // Check if the "FlaMe Ticket" category exists
+            // Check if the "Harm Ticket" category exists
             let ticketCategory = interaction.guild.channels.cache.find(
-                (channel) => channel.name === "FlaMe Ticket" && channel.type === 4
+                (channel) => channel.name === "Harm Ticket" && channel.type === 4
             );
 
             if (!ticketCategory) {
-                ticketCategory = await interaction.guild.channels.create('FlaMe Ticket', {
+                ticketCategory = await interaction.guild.channels.create('Harm Ticket', {
                     type: 'GUILD_CATEGORY',
                     permissionOverwrites: [
                         {
@@ -71,7 +71,7 @@ module.exports = (client) => {
 
             // Create the embed for the ticket
             const ticketEmbed = new MessageEmbed()
-                .setTitle('🎟 FlaMe Ticket')
+                .setTitle('🎟 Harm Ticket')
                 .setDescription(`Hello <@${interaction.user.id}>! A staff member will assist you shortly.\n\nIf you wish to close this ticket, click the button below.`)
                 .setColor('BLACK');
 

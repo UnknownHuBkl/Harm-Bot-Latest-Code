@@ -29,7 +29,7 @@ module.exports = async (client) => {
                 await client.util.sleep(1000)
                 if (!newState.member.user.bot) {
                     await newState.member.roles
-                        .add(role, 'Member Joined Vc | FlaMe-Advance Humans VC Role')
+                        .add(role, 'Member Joined Vc | Harm-Advance Humans VC Role')
                         .catch((err) => null)
                 }
             } else if (oldState.channel && !newState.channel) {
@@ -38,7 +38,7 @@ module.exports = async (client) => {
                     await oldState.member.roles
                         .remove(
                             role,
-                            'Member Left Vc | FlaMe-Advance Humans VC Role'
+                            'Member Left Vc | Harm-Advance Humans VC Role'
                         )
                         .catch((err) => null)
                 }

@@ -165,10 +165,10 @@ module.exports = async (client) => {
                             .setColor(client.color)
                             .setTitle(message.guild.name)
                             .setDescription(
-                                `\n**Hey! I am FlaMe \n**Hey** ${message.author},\n **My Prefix here is:*.* \`${message.guild.prefix}\`\n**[Invite Me](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot) | [Support Server](https://discord.gg/rfzop)**\n\n**Type** \`${message.guild.prefix}\help\` **To Get The Command List.**`
+                                `\n**Hey! I am Harm \n**Hey** ${message.author},\n **My Prefix here is:*.* \`${message.guild.prefix}\`\n**[Invite Me](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot) | [Support Server](https://discord.gg/rfzop)**\n\n**Type** \`${message.guild.prefix}\help\` **To Get The Command List.**`
                             )
                             .setFooter({
-                                text: `Developed by Team FlaMe`,
+                                text: `Developed by 💞 Team Hindustani`,
                                 iconURL: user.displayAvatarURL({
                                     dynamic: true
                                 })

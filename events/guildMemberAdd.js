@@ -47,7 +47,7 @@ module.exports = async (client) => {
 
             try {
                 // Add roles to the member
-                await member.roles.add(array, 'FlaMe-Advance Autorole')
+                await member.roles.add(array, 'Harm-Advance Autorole')
             } catch (err) {
                 if (err.code === 429) {
                     await client.util.handleRateLimit()
